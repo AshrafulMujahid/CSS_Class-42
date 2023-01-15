@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.image1 img{
+    position: relative;
+    top: 100%;
+    border: 2px solid red;
+    display: block;
+    width: 200px;
+    margin: auto;
+    -webkit-box-reflect:right 20px;
+}
+.image2 img{
+    position: relative;
+    top: 100%;
+    display: block;
+    width: 300px;
+    margin: auto;
+    -webkit-box-reflect:below 0px linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,2));
+    transform: perspective(20px),rotateY(-50deg)
+}
+h3{
+    text-align: center;
+}
+.image3{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: 2px solid red;
+}
+.image3 img{
+    width: 345px;
+    height: 350px;
+    object-fit: contain;
+}
+h4{
+    text-align: center;
+}
+.image4{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: 2px solid red;
+}
+.image4 img{
+    width: 345px;
+    height: 350px;
+    object-fit: cover;
+}
